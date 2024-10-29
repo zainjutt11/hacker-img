@@ -1,0 +1,85 @@
+
+
+h1{
+    color: aliceblue;
+    size: 10px;
+}
+body
+{
+    margin: 0;
+    height: 50vh;
+    background-color: burlywood;
+  }
+  .face{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.LeZBpB7LQTRjZapwD9SpIAHaE8&pid=Api&P=0&h=220)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    filter: contrast(100%);
+    border-radius: 40px;
+    box-shadow:  24px 24px 48px #0d0b76,
+               -24px -24px 48px #3411b4;
+  }
+  .container{
+    height: 80px;
+    width: 80px; 
+    border: 2px solid black;
+    border-radius: 5px 1000px;
+    rotate: -28deg;
+    overflow: hidden;
+    background-color: black;
+    margin-right: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 93px;
+  }
+  .container1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 1000px 5px;
+    rotate: 25deg;
+    overflow: hidden;
+    background-color: black;
+    margin-left: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 298px;
+  }
+  ::-webkit-scrollbar {
+      display: none;
+  }
+  .eyeball{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    top: -2px;
+    left: 30px;
+    animation: eyesani 0.3s infinite;
+    background-color: red;
+    background-image: url('https://github.com/jovanjohn1/hosted-assets/blob/main/Anime/RinneSharingan.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(130%);
+  }
+  @keyframes eyesani{
+    0%{  top: -2px;
+    left: 30px;}
+    10%{  top: -2px;
+    left: -30px;}
+    30%{  top: -2px;
+    left: 90px;}
+    50%{  top: 30px;
+    left: -50px;}
+  }
